@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="auto_buffer.cpp" />
     <ClCompile Include="game_dev_assist_app.cpp" />
     <ClCompile Include="game_dev_assist_main_frame.cpp" />
+    <ClCompile Include="image_tools.cpp" />
     <ClCompile Include="main_frame.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="auto_buffer.h" />
     <ClInclude Include="game_dev_assist_app.h" />
     <ClInclude Include="game_dev_assist_main_frame.h" />
+    <ClInclude Include="image_tools.h" />
     <ClInclude Include="main_frame.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -97,7 +101,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxUSE_UNICODE_MSLU;wxNEEDS_DECL_BEFORE_TEMPLATE;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxUSE_UNICODE_MSLU;wxNEEDS_DECL_BEFORE_TEMPLATE;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>../cpplibs/wxMSW-3.0.5/include;../cpplibs/wxMSW-3.0.5/include/msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -118,7 +122,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxUSE_UNICODE_MSLU;wxNEEDS_DECL_BEFORE_TEMPLATE;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxUSE_UNICODE_MSLU;wxNEEDS_DECL_BEFORE_TEMPLATE;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>../cpplibs/wxMSW-3.0.5/include;../cpplibs/wxMSW-3.0.5/include/msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

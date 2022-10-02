@@ -196,6 +196,9 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	btn_combine_image_ = new wxButton( this, wxID_ANY, wxT("合成图片"), wxDefaultPosition, wxDefaultSize, 0 );
 	main_option_sizer_->Add( btn_combine_image_, 0, wxALL, 5 );
 
+	src_img_view_combined_ = new wxStaticBitmap( this, wxID_ANY, wxNullBitmap, wxDefaultPosition, wxSize( 256,256 ), wxBORDER_SUNKEN );
+	main_option_sizer_->Add( src_img_view_combined_, 0, wxALL, 5 );
+
 
 	main_sizer_->Add( main_option_sizer_, 1, wxEXPAND, 5 );
 

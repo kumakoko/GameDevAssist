@@ -59,6 +59,7 @@ class MainFrame : public wxFrame
 		wxCheckBox* chk_img_view_4_alpha_;
 		wxButton* btn_load_img_4_;
 		wxButton* btn_combine_image_;
+		wxStaticBitmap* src_img_view_combined_;
 
 		// Virtual event handlers, override them in your derived class
 		virtual void OnOpenImageForImageView1( wxCommandEvent& event ) { event.Skip(); }
